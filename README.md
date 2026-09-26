@@ -34,9 +34,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice.svg?v=grid"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice-light.svg?v=grid"/>
-    <img src="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice.svg?v=grid" alt="ice snake eating contributions" width="100%"/>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice.svg?v=grid2"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice-light.svg?v=grid2"/>
+    <img src="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice.svg?v=grid2" alt="ice snake eating contributions" width="100%"/>
   </picture>
 </p>
 
