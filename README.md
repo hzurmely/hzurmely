@@ -33,18 +33,5 @@
 <br/>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice.svg"/>
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice-light.svg"/>
-    <img src="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice.svg" alt="ice snake eating contributions" width="100%"/>
-  </picture>
-</p>
-
-<p align="center">
   <img src="assets/footer.svg" alt="stay frosty" width="100%"/>
 </p>
-
-<details>
-<summary><sub><sup>❄</sup></sub></summary>
-<p align="center"><img src="assets/flags.svg" height="14" alt="BR FR"/><br/><sub><sup>you found the part that didn't freeze.</sup></sub></p>
-</details>
