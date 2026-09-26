@@ -10,33 +10,6 @@
   </a>
 </p>
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=hzurmely&label=FROZEN%20VISITORS&color=0a3252&style=for-the-badge&abbreviated=true" alt="views"/>
-  <img src="https://img.shields.io/github/followers/hzurmely?label=FOLLOWERS&style=for-the-badge&color=0e3a5c&labelColor=010812&logo=github&logoColor=bfe9ff" alt="followers"/>
-</p>
-
-<br/>
-
-<h3 align="center">🧊 /whoami</h3>
-
-<p align="center">
-  <i>Builds things that stay cold under load.</i><br/>
-  <sub>trackers · dashboards · data sites · the occasional desktop app</sub>
-</p>
-
-<br/>
-
-<h3 align="center">❄️ toolkit</h3>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/JavaScript-010812?style=for-the-badge&logo=javascript&logoColor=7DD3FC" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/Next.js-010812?style=for-the-badge&logo=nextdotjs&logoColor=7DD3FC" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/Node.js-010812?style=for-the-badge&logo=nodedotjs&logoColor=7DD3FC" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/HTML5-010812?style=for-the-badge&logo=html5&logoColor=7DD3FC" alt="HTML5"/>
-  <img src="https://img.shields.io/badge/CSS-010812?style=for-the-badge&logo=css&logoColor=7DD3FC" alt="CSS"/>
-  <img src="https://img.shields.io/badge/Git-010812?style=for-the-badge&logo=git&logoColor=7DD3FC" alt="Git"/>
-</p>
-
 <br/>
 
 <h3 align="center">🏔️ frozen in the vault</h3>
