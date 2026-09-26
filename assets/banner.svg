@@ -14,7 +14,7 @@
   </linearGradient>
   <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="40"/></filter>
   <filter id="glow" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  <mask id="tm"><text x="600" y="164" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="10" fill="#fff">HZURMELY</text></mask>
+  <mask id="tm"><text x="600" y="176" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="10" fill="#fff">HZURMELY</text></mask>
 </defs>
 <rect width="1200" height="320" fill="url(#sky)"/>
 <g filter="url(#blur)">
@@ -26,10 +26,9 @@
 <path d="M260 206 L285 222 L270 220 L250 230 L240 214 Z M790 212 L812 226 L796 224 L778 232 L772 220 Z M600 222 L620 234 L604 233 L590 238 Z" fill="#cdefff" opacity="0.55"/>
 <path d="M0 320 L0 286 L120 268 L230 284 L340 262 L470 288 L580 270 L700 290 L820 266 L950 286 L1070 268 L1200 282 L1200 320 Z" fill="#12507c"/>
 <path d="M0 320 L0 300 L200 294 L420 304 L640 296 L860 306 L1060 296 L1200 302 L1200 320 Z" fill="#bfe9ff" opacity="0.18"/></g>
-<text x="600" y="164" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="10" fill="#5cc8ff" opacity="0.35" filter="url(#glow)">HZURMELY</text>
-<text x="600" y="164" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="10" fill="url(#ice)" stroke="#e6f8ff" stroke-width="1.2">HZURMELY</text>
-<g mask="url(#tm)"><rect x="-300" y="46" width="220" height="140" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="-400;1500;1500" keyTimes="0;0.45;1" dur="6s" repeatCount="indefinite"/></rect></g>
-<text x="600" y="210" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="7" fill="#9fdcff">COLD CODE  ·  STEADY HANDS  ·  ZERO MELTDOWNS</text>
+<text x="600" y="176" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="10" fill="#5cc8ff" opacity="0.35" filter="url(#glow)">HZURMELY</text>
+<text x="600" y="176" text-anchor="middle" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="112" font-weight="900" letter-spacing="10" fill="url(#ice)" stroke="#e6f8ff" stroke-width="1.2">HZURMELY</text>
+<g mask="url(#tm)"><rect x="-300" y="58" width="220" height="140" fill="url(#shine)" transform="skewX(-20)"><animate attributeName="x" values="-400;1500;1500" keyTimes="0;0.45;1" dur="6s" repeatCount="indefinite"/></rect></g>
 <g opacity="0.95"><circle cx="543" cy="-10" r="1.8" fill="#eaf8ff" opacity="0.70"><animateTransform attributeName="transform" type="translate" from="0 0" to="0 350" dur="15.3s" begin="-8.5s" repeatCount="indefinite"/></circle>
 <circle cx="222" cy="-10" r="1.7" fill="#eaf8ff" opacity="0.53"><animateTransform attributeName="transform" type="translate" from="0 0" to="-24 350" dur="12.7s" begin="-3.3s" repeatCount="indefinite"/></circle>
 <circle cx="109" cy="-10" r="2.3" fill="#eaf8ff" opacity="0.93"><animateTransform attributeName="transform" type="translate" from="0 0" to="29 350" dur="13.2s" begin="-15.3s" repeatCount="indefinite"/></circle>
