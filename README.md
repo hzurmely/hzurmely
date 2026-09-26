@@ -1,7 +1,7 @@
 <!-- ❄ frozen profile ❄ -->
 
 <p align="center">
-  <img src="assets/banner.svg" alt="HZURMELY" width="100%"/>
+  <img src="assets/banner-frost.svg" alt="HZURMELY" width="100%"/>
 </p>
 
 <p align="center">
@@ -31,6 +31,14 @@
 </p>
 
 <br/>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice.svg?v=grid"/>
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice-light.svg?v=grid"/>
+    <img src="https://raw.githubusercontent.com/hzurmely/hzurmely/output/snake-ice.svg?v=grid" alt="ice snake eating contributions" width="100%"/>
+  </picture>
+</p>
 
 <p align="center">
   <img src="assets/footer.svg" alt="stay frosty" width="100%"/>
