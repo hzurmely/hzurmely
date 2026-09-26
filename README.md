@@ -73,5 +73,5 @@
 
 <details>
 <summary><sub><sup>❄</sup></sub></summary>
-<p align="center"><sub>🇧🇷 &nbsp;·&nbsp; 🇫🇷</sub><br/><sub><sup>you found the part that didn't freeze.</sup></sub></p>
+<p align="center"><img src="assets/flags.svg" height="14" alt="BR FR"/><br/><sub><sup>you found the part that didn't freeze.</sup></sub></p>
 </details>
