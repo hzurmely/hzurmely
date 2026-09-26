@@ -1,0 +1,51 @@
+name: frozen snake
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-ice.svg?color_snake=#e0f7ff&color_dots=#0b1622,#0e3a5c,#1e6fa8,#56b4e9,#bfe9ff
+            dist/snake-ice-light.svg?color_snake=#0a3252&color_dots=#eaf6ff,#bfe9ff,#7dd3fc,#38bdf8,#0369a1
+
+      - name: keep the snake inside the grid
+        run: |
+          cat > fix_snake.py <<'PY'
+          import re, glob, sys
+          for f in (sys.argv[1:] or glob.glob('dist/*.svg')):
+              s = open(f).read()
+              xs = [float(x) for x in re.findall(r'class="c[^"]*" x="([-\d.]+)"', s)]
+              ys = [float(y) for y in re.findall(r'class="c[^"]*" x="[-\d.]+" y="([-\d.]+)"', s)]
+              W, H = max(xs) + 14, max(ys) + 14
+              s = re.sub(r'<svg viewBox="[^"]*" width="[^"]*" height="[^"]*"',
+                         f'<svg viewBox="-4 -4 {W+8:g} {H+8:g}" width="{W+8:g}" height="{H+8:g}"', s, count=1)
+              s = re.sub(r'<rect class="u [^>]*/>', '', s)
+              i = s.find('<rect class="s ')
+              s = (s[:i] + f'<defs><clipPath id="grid"><rect x="0" y="0" width="{W:g}" height="{H:g}" rx="3"/></clipPath></defs>'
+                   + '<g clip-path="url(#grid)">' + s[i:].replace('</svg>', '</g></svg>'))
+              open(f, 'w').write(s)
+              print('fixed', f, W, H)
+          PY
+          sudo chown -R $(id -u) dist || true
+          python3 fix_snake.py
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
